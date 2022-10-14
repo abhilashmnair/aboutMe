@@ -7,6 +7,7 @@
   EXAMPLE :
 
     "<YOUR_USERNAME>" : {
+        "profile_pic" : "<Your profile picture URL>"
         "instagram" : "<YOUR HANDLE>",
         "whatsapp" : "", #leave it blank if you don't need the field
     }
