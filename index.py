@@ -17,17 +17,18 @@ def landingPage(username):
         userData = data[username]
 
         return render_template(
-        'index.html',
-        username = username,
-        profile_pic = userData['profile_pic'],
-        github = userData['github'],
-        whatsapp = userData['whatsapp'],
-        instagram = userData['instagram'],
-        twitter = userData['twitter'],
-        spotify = userData['spotify'])
+            'index.html',
+            username = username,
+            profile_pic = userData['profile_pic'],
+            github = userData['github'],
+            whatsapp = userData['whatsapp'],
+            instagram = userData['instagram'],
+            twitter = userData['twitter'],
+            spotify = userData['spotify']
+        )
         
     except:
-        return 'Data Not submitted in the repository! Visit github.com/abhilashmnair/aboutme'
+        return '<h2> Data not submitted in the repository or invalid username! <a href = "https://github.com/abhilashmnair/aboutme">Click here for instructions.</a><h2>'
 
 if __name__ == '__main__':
     app.run(threaded = True, debug = True)
