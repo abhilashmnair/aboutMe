@@ -1,7 +1,7 @@
 <h1 align="center"> AboutMe : Simple Landing Page 🌴 </h1>
 <p align = "center"><b>🎉 A simple landing page made with Flask framework of Python. Deployed on vercel. 🎉</b></p><br>
 <p align = "center">
-  <img src = "https://hacktoberfest.com/_next/static/media/opengraph.da6e44c0.png" width="100%"/>
+  <img src = "https://raw.githubusercontent.com/abhilashmnair/aboutme/master/static/img/hacktoberfest.png" width="100%"/>
 </p>
 
 This repository is made for beginners who are unfamiliar with open source and GitHub. So what is holding you back?! Make your first contribution to the open source and take home swags. 👕📦
