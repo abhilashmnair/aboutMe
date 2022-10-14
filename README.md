@@ -1,8 +1,8 @@
 <h1 align="center"> AboutMe : Simple Landing Page 🌴 </h1>
-<p align = "center"><b>🎉 A simple landing page made with Flask framework in Python. Deployed on <a href="https://aboutme-pi.vercel.com">Vercel</a>. 🎉</b></p>
+<p align = "center"><b>🎉 A simple landing page made with Flask framework in Python. Deployed on <a href="https://aboutme-pi.vercel.app/">Vercel</a>. 🎉</b></p>
 
 <p align = "center">😇 Create your own landing webpages with your social handles without the need of any coding knowledge 💖 <p>
-<p align = "center">Your landing page will be available at <b>https://aboutme-pi.vercel.com/your_username</b><p>
+<p align = "center">Your landing page will be available at <b>https://aboutme-pi.vercel.app/&#60;YOUR_USERNAME&#62;</b><p>
 
 # <b>How to contribute?</b>
 Read [`RULES.md`](https://github.com/abhilashmnair/aboutme/blob/main/RULES.md) before creating a pull request
