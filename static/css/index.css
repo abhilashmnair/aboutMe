@@ -1,0 +1,90 @@
+:root {
+    --Color1 : black;
+    --Color2 : white;
+}
+
+* {
+    color: var(--Color2);
+    font-weight: 600;
+    font-size : medium;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+html ::-webkit-scrollbar {
+  display: none;
+}
+  body {
+    background-attachment: fixed !important;
+    background-image: linear-gradient(to right, #42275a, #734b6d);
+    height: 100%;
+    width : 100vw;
+    position: absolute;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #profile-picture {
+    border-radius: 50%;
+    border-color: antiquewhite;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  #title {
+    font-family: 'Poppins', sans-serif;
+    font-size : 30px;
+  }
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#tile {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    background-color: #67517a;
+    border-radius: 10px;
+    width: 40%;
+    margin: 10px;
+    font-size : 1em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+i {
+    margin-right: 10px;
+}
+
+#tile:hover i, #tile:hover {
+    background-color: var(--Color2);
+    color: var(--Color1);
+}
+
+@media screen and (max-width: 480px) {
+  #title {
+    font-size : 20px;
+  }
+
+  #tile {
+    font-size : 0.8em;
+}
+}
