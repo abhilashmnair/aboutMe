@@ -24,7 +24,10 @@ def landingPage(username):
             whatsapp = userData['whatsapp'],
             instagram = userData['instagram'],
             twitter = userData['twitter'],
-            spotify = userData['spotify']
+            spotify = userData['spotify'],
+            facebook = userData['facebook'],
+            telegram = userData['telegram'],
+            linkedin = userData['linkedin']
         )
         
     except:

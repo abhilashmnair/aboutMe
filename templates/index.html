@@ -21,29 +21,54 @@
         <h1 id = 'title'>@{{username}}</h1>
     </div>
     <div class = 'container'>
+        {% if github %}
             <a href = {{github}} target = '_blank' id = 'tile'>
                 <i class="fa fa-github fa-2x" aria-hidden="true"></i>
                     GitHub
             </a>
+        {% endif %}
+        {% if linkedin %}
+            <a href = {{linkedin}} target = '_blank' id = 'tile'>
+                <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                    LinkedIn
+            </a>
+        {% endif %}
+        {% if instagram %}
         <a href = {{instagram}} target = '_blank' id = 'tile'>
             <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 Instagram
         </a>
-        
+        {% endif %}
+        {% if facebook %}
+        <a href = {{facebook}} target = '_blank' id = 'tile'>
+            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                Facebook
+        </a>
+        {% endif %}
+        {% if whatsapp %}
         <a href = {{whatsapp}} target = '_blank' id = 'tile'>
             <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
                 WhatsApp
         </a>
-        
+        {% endif %}
+        {% if telegram %}
+        <a href = {{telegram}} target = '_blank' id = 'tile'>
+            <i class="fa fa-telegram fa-2x" aria-hidden="true"></i>
+                Telegram
+        </a>
+        {% endif %}
+        {% if twitter %}
         <a href = {{twitter}} target = '_blank' id = 'tile'>
             <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 Twitter
         </a>
-        
+        {% endif %}
+        {% if spotify %}
         <a href = {{spotify}} target = '_blank' id = 'tile'>
             <i class="fa fa-spotify fa-2x" aria-hidden="true"></i>
                 Spotify
         </a>
+        {% endif %}
     </div>
     <footer></footer>
 </body>
