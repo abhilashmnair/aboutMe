@@ -8,7 +8,7 @@ with open('data.json', 'r') as data:
 
 @app.route('/')
 def home():
-    return 'Hello'
+    return render_template('home.html')
 
 @app.route('/<username>')
 def landingPage(username):

@@ -1,0 +1,50 @@
+:root {
+    --Color1 : black;
+    --Color2 : white;
+}
+
+* {
+    color: var(--Color2);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, #42275a, #734b6d);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    font-size: 10vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+#subtitle{
+    font-weight: lighter;
+    color: lavender;
+}
+
+#visit {
+    text-align: center;
+}
+
+#container {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
