@@ -13,31 +13,34 @@
 <body>
     <div id = 'header'>
         <a>
-            <img id = 'profile-picture' src = "https://i.ibb.co/QrV0Ljx/profile-pic.jpg" 
+            <img id = 'profile-picture' src = "{{profile_pic}}" 
                 alt = 'Profile Picture'
                 width = '120px'
                 height = '120px'/>
         </a>
-        <a href = 'https://abhilashmnair.github.io' target="_blank"><h1 id = 'title'>@abhilashmnair</h1></a>
+        <h1 id = 'title'>@{{username}}</h1>
     </div>
     <div class = 'container'>
-        <a href = 'https://github.com/abhilashmnair' target = '_blank' id = 'tile'>
-            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                GitHub
-        </a>
-        <a href = 'https://instagram.com/abhilashmnair' target = '_blank' id = 'tile'>
+            <a href = {{github}} target = '_blank' id = 'tile'>
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    GitHub
+            </a>
+        <a href = {{instagram}} target = '_blank' id = 'tile'>
             <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 Instagram
         </a>
-        <a href = 'https://wa.me/918156923584' target = '_blank' id = 'tile'>
+        
+        <a href = {{whatsapp}} target = '_blank' id = 'tile'>
             <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
                 WhatsApp
         </a>
-        <a href = 'https://twitter.com/abhilashmnair20' target = '_blank' id = 'tile'>
+        
+        <a href = {{twitter}} target = '_blank' id = 'tile'>
             <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 Twitter
         </a>
-        <a href = 'https://open.spotify.com/user/31nlsdxvptta5sp2l7gfngqbwmla' target = '_blank' id = 'tile'>
+        
+        <a href = {{spotify}} target = '_blank' id = 'tile'>
             <i class="fa fa-spotify fa-2x" aria-hidden="true"></i>
                 Spotify
         </a>
