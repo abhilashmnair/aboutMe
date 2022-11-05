@@ -4,7 +4,7 @@
 <p align = "center">😇 Create your own landing webpages with your social handles without the need of any coding knowledge 💖 <p>
 <p align = "center">Your landing page will be available at <b>https://aboutme-pi.vercel.app/&#60;YOUR_USERNAME&#62;</b><p>
 
-<p align = "center"><b>PLEASE REFER <code>RULES.MD</code> ON HOW TO GET YOUR LINK AND MAKE A PULL REQUEST</b></p>
+<p align = "center"><b>PLEASE REFER <a href = 'https://github.com/abhilashmnair/aboutme/blob/main/RULES.md'><code>RULES.MD</code></a> ON HOW TO GET YOUR LINK AND MAKE A PULL REQUEST</b></p>
 
 ## <b>License</b>
 
