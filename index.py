@@ -27,7 +27,8 @@ def landingPage(username):
             spotify = userData['spotify'],
             facebook = userData['facebook'],
             telegram = userData['telegram'],
-            linkedin = userData['linkedin']
+            linkedin = userData['linkedin'],
+            soundcloud = userData['soundcloud']
         )
         
     except:
